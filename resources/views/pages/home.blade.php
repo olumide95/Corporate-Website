@@ -1,97 +1,112 @@
 <!--==========================
       Featured Services Section
     ============================-->
-    <section id="featured-services">
-      <div class="container">
-        <div class="row">
+   
+<section id="featured-services">
+	<div class="" style="padding:0%;margin-left: 2%;margin-right: 2%;">
+		<div class="row">
+			<div class="col box">
 
-          <div class="col-lg-4 box">
-            <i class="ion-ios-bookmarks-outline"></i>
-            <h4 class="title"><a href="">Innovation</a></h4>
-            <p class="description">GVI & its partners
-are constantly Engaged in world-class research aimed at developing the most effective solutions, applicable to our environment.</p>
-          </div>
+				<h4 class="title"><a href="{{url('services/procurement-supply')}}">Contracting &amp; Procurement </a></h4>
 
-          <div class="col-lg-4 box box-bg">
-            <i class="ion-ios-stopwatch-outline" style="color: blue"></i>
-            <h4 class="title"><a href="">Quality</a></h4>
-            <p class="description">GVI has built a reputation based on the quality of products and services delivered. We are constantly interested in ensuring that our equipments are installed, operated and maintained trouble free.</p>
-          </div>
+				<p class="description">GVI-NL has extensive corporate experience providing full Procurement services towards supporting a variety of facility, wellsite and pipeline projects.</p>
+			</div>
+			<div class="col box box-bg">
 
-          <div class="col-lg-4 box">
-            <i class="ion-ios-heart-outline" style="color: purple"></i>
-            <h4 class="title"><a href="">Variety</a></h4>
-            <p class="description"> We offer a comprehensive selection of products readily available either through our strong network with manufacturers and take pride in being the one stop shop for our clients.</p>
-          </div>
+				<h4 class="title"><a href="{{url('services/instrumentation-electrical-automation')}}">Instrumentation, Electrical &amp; Automation</a></h4>
 
-        </div>
-      </div>
-    </section><!-- #featured-services -->
+				<p class="description">We are pioneering the deployment of improved communication with existing Facilities through Patent IIOT communication languages.</p>
+			</div>
+			<div class="col box">
 
-    <!--==========================
+				<h4 class="title"><a href="{{url('services/well-head-valve-engineering')}}">Well Head &amp; Valve Engineering</a></h4>
+
+				<p class="description">We support the installation, repair, maintenance services, Well heads, Valves of all sizes, and as well serve as Engineering consultants to a wide range of Well Engineering needs.</p>
+			</div>
+           
+      <div class="col box box-bg">
+
+				<h4 class="title"><a href="{{url('services/turbine-maintenance')}}">Turbine Maintenance</a></h4>
+
+				<p class="description">Our joint team of highly skilled and qualified gas turbine engineers have over 100 years combined experience within gas turbine maintenance, service, site management and site relocations.</p>
+			</div>
+
+      <div class="col box">
+
+				<h4 class="title"><a href="{{url('services/subsurface-reservoir')}}">Subsurface &amp; Reservoir</a></h4>
+
+				<p class="description">GVI Nigeria Limited carries out Reservoir studies and offers its Clients different Reservoir management support.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- #featured-services -->
+<!--==========================
       About Us Section
     ============================-->
-    <section id="about" style="background:url() !important">
-      <div class="container text-center">
+<section id="about" style="background:url() !important;">
+	<div class="container text-center">
+		<header class="section-header">
 
-        <header class="section-header">
-        <h3>About Us</h3>
-        <h4 class="title">We are a team of highly skilled and passionate professionals with well-trained technical staff and state of the art equipments in all areas of our operations.</h4>
-        </header>
+			<h3>About Us</h3>
 
-        <a href="about.html" class="btn btn-success">Read More</a>
-
-      </div>
-    </section><!-- #about -->
- <!--==========================
+			<h4 class="title">GVI Nigeria Limited is a fully integrated Engineering Service Company with Business Units that cater to the different Engineering needs of our Clients. We are in a number of Strategic Partnerships that avail us draw needed expertise wherever necessary and ultimately ensures that our services rendered are based on international standards.  </h4>
+		</header><a class="btn btn-success" href="{{url('about')}}">Read More</a></div>
+</section>
+<!-- #about -->
+<!--==========================
       Call To Action Section
     ============================-->
-    <section id="call-to-action" class="wow fadeIn">
-      <div class="container text-center">
-        <h3>Health, Safety & Environment</h3>
-        <p> At GVI, Health, Safety and Environmental (HSE)
-responsibilities are integral to the way we do business.</p>
-        <a class="cta-btn" href="#">Learn More</a>
-      </div>
-    </section><!-- #call-to-action -->
-    <!--==========================
+<section class="wow fadeIn" id="call-to-action" style="visibility: visible; animation-name: fadeIn;">
+	<div class="container text-center">
+
+		<h3>Quality, Health, Safety &amp; Environment</h3>
+
+		<p>At GVI, Health, Safety and Environmental (HSE)
+responsibilities are integral to the way we do business. We provide process technology and services that are devoid of errors and meet requirement of our clients.</p><a class="cta-btn" href="{{url('qhse')}}">Learn More</a></div>
+</section>
+<!-- #call-to-action -->
+<!--==========================
       Services Section
     ============================-->
-    <section id="services">
-      <div class="container">
+<section id="services">
+	<div class="container">
+		<header class="section-header wow fadeInUp" style="visibility: hidden; animation-name: none;">
 
-        <header class="section-header wow fadeInUp">
-          <h3>Services</h3>
-          <p>We Provide the following services and are committed to understanding your requirements.</p>
-        </header>
+			<!--<h3>Services</h3>
 
-        <div class="row">
+			<p>We Provide the following services and are committed to understanding your requirements.</p>-->
+		</header>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s" style="visibility: hidden; animation-duration: 1.4s; animation-name: none;">
+				<div class="icon">
+				<i class="ion-ios-bookmarks-outline"></i>
+				</div>
 
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-paper-outline"></i></div>
-            <h4 class="title"><a href="services/procurement-supply">Procurement & Supply</a></h4>
-            <p class="description">Through our local representation and unique
-partnerships, We ensure cost-effective procurement
-of materials such as valves, pipes, electrical
-equipments etc; and guarantee timely delivery.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-wrench"></i></div>
-            <h4 class="title"><a href="services/operation-installation-maintenance">Fabrication & Installation</a></h4>
-            <p class="description">We provide support with fabrications & installations
-that meet our client’s specification. our scope covers,
-but is not limited to materials such as pipes, flanges,
-fittings, electrical materials... </p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-            <h4 class="title"><a href="services/operation-installation-maintenance">Operation & Maintenance</a></h4>
-            <p class="description">We efficiently operate and maintain oil and gas
-facilities such as wellheads on behalf of clients,
-guaranteeing overall technical competence at the
-barest costs. </p>
-          </div>
-         <!-- <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+				<h4 class="title"><a href="#">Innovation</a></h4>
+
+				<p class="description">GVI & its partners are constantly Engaged in world-class research aimed at developing the most effective solutions, applicable to our environment.</p>
+			</div>
+			<div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s" style="visibility: hidden; animation-duration: 1.4s; animation-name: none;">
+				<div class="icon">
+					<i class="ion-ios-stopwatch-outline" style="color: blue"></i>
+				</div>
+
+				<h4 class="title"><a href="#">Quality</a></h4>
+
+				<p class="description">GVI has built a reputation based on the quality of products and services delivered. We are constantly interested in ensuring that our equipments are installed, operated and maintained trouble free.</p>
+			</div>
+			<div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s" style="visibility: hidden; animation-duration: 1.4s; animation-name: none;">
+				<div class="icon">
+				<i class="ion-ios-heart-outline" style="color: purple"></i>
+				</div>
+
+				<h4 class="title"><a href="#">Variety</a></h4>
+
+				<p class="description">
+We offer a comprehensive selection of products readily available either through our strong network with manufacturers and take pride in being the one stop shop for our clients.</p>
+			</div>
+			<!-- <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
             <h4 class="title"><a href="">Magni Dolores</a></h4>
             <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
@@ -105,16 +120,11 @@ barest costs. </p>
             <div class="icon"><i class="ion-ios-people-outline"></i></div>
             <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
             <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-          </div>-->
-
-        </div>
-
-      </div>
-    </section><!-- #services -->
-
-   
-
-    <!--==========================
+          </div>--></div>
+	</div>
+</section>
+<!-- #services -->
+<!--==========================
       Skills Section
     ============================
     <section id="skills">
@@ -155,8 +165,7 @@ barest costs. </p>
 
       </div>
     </section>-->
-
-    <!--==========================
+<!--==========================
       Facts Section
     ============================
     <section id="facts"  class="wow fadeIn">
@@ -196,9 +205,9 @@ barest costs. </p>
         </div>
 
       </div>
-    </section>--><!-- #facts -->
-
-    <!--==========================
+    </section>-->
+<!-- #facts -->
+<!--==========================
       Portfolio Section
     ============================
     <section id="portfolio"  class="section-bg" >
@@ -359,9 +368,9 @@ barest costs. </p>
         </div>
 
       </div>
-    </section>--><!-- #portfolio -->
-
-    <!--==========================
+    </section>-->
+<!-- #portfolio -->
+<!--==========================
       Clients Section
     ============================
     <section id="clients" class="wow fadeInUp">
@@ -383,9 +392,9 @@ barest costs. </p>
         </div>
 
       </div>
-    </section>--><!-- #clients -->
-
-    <!--==========================
+    </section>-->
+<!-- #clients -->
+<!--==========================
       Clients Section
     ============================
     <section id="testimonials" class="section-bg wow fadeInUp">
@@ -400,7 +409,7 @@ barest costs. </p>
           <div class="testimonial-item">
             <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
             <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Founder</h4>
+            <h4>Ceo & Founder</h4>
             <p>
               <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
               Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
@@ -455,9 +464,9 @@ barest costs. </p>
         </div>
 
       </div>
-    </section>--><!-- #testimonials -->
-
-    <!--==========================
+    </section>-->
+<!-- #testimonials -->
+<!--==========================
       Team Section
     ============================
     <section id="team">
@@ -544,4 +553,5 @@ barest costs. </p>
         </div>
 
       </div>
-    </section>--><!-- #team -->
+    </section>-->
+<!-- #team -->

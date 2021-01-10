@@ -2,7 +2,28 @@
 
 @section('style')
 <style type="text/css">
+ #intro h2 {
+    
+    font-size: 35px;
+   
+}
+
+#intro .btn-get-started {
+   
+    font-size: 13px;
+
+}
+
+#intro {
  
+  height: 70vh;
+
+}
+
+#intro .carousel-item {
+  height: 70vh;
+ 
+}
  </style>
 @endsection
 

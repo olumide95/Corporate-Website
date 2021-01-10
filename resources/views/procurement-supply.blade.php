@@ -16,6 +16,7 @@
   height: 50vh;
 
 }
+
  </style>
 @endsection
 
@@ -38,7 +39,7 @@
             <div class="carousel-background"><img src="{{ asset('img/intro-carousel/cost.jpg')}}" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Procurement & Supply</h2>
+                <h2>Contracting & Procurement </h2>
           
               </div>
             </div>
@@ -58,7 +59,7 @@
     <!--==========================
       About Us Section
     ============================-->
-    <section id="about">
+    <section id="about" style="background:url() !important;color: #000;">
       <div class="container">
 
 @guest

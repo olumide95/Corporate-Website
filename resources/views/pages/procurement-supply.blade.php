@@ -1,5 +1,24 @@
 
- 
+
+          <div class="row">
+            <div class="col-md-12">
+              
+              <p class="mb-4">
+               GVI Nigeria Limited (GVI-NL) provides its Clients with cost effective procurement support of Materials from different Manufacturers. Our approach for finding best deals comes from our unique partnerships that allow us access to a number of Manufacturers and OEMs, ultimately positioning us with necessary leverage to access the best deals available. Our range of materials supplied include Valves, Instrumentation Materials, Well Head accessories, Choke houses, Casings, Tubings, Line Pipes etc…..
+   </p>
+
+          
+  <p class="mb-4">
+In addition, GVI-NL  is built on a foundation of having highly technical and efficient engineering professionals who provide high value, high quality work to our clients. Our organizational depth allows us to efficiently and effectively deploy staff to align skillsets with projects requirements such as size, technical complexity and schedule. It also allows us to actively respond to changing project needs with the resources required to ensure cost, quality and schedule are not compromised during execution. Creating and maintaining an environment which challenges our people, provides backstop support and promotes a positive workplace culture is an ongoing focus and has allowed us to effectively grow. 
+  </p>
+   <p class="mb-4">
+GVI-NL has extensive corporate experience providing full Procurement services towards supporting a variety of facility, wellsite and pipeline projects. 
+              </p>
+             
+            </div>
+             
+          </div>
+
 
 <div class="row text-center">
     <div class="col-md-4 col-sm-4">

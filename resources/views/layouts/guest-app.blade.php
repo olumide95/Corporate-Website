@@ -66,9 +66,13 @@
           <li @if(Request::path() == '/') class="menu-active" @endif ><a href="{{url('/')}}">Home</a></li>
           <li @if(Request::path() == 'about') class="menu-active" @endif ><a href="{{url('about')}}">About Us</a></li>
           <li @if(Request::path() == 'services/procurement-supply' || Request::path() == 'services/operation-installation-maintenance') class="menu-active menu-has-children" @else  class="menu-has-children" @endif ><a href="#">Services</a>
-            <ul style="margin-left:-10px;">
-              <li><a href="{{url('services/procurement-supply')}}">Procurement & Supply</a></li>
-              <li><a href="{{url('services/operation-installation-maintenance')}}">Operation, Installation & Maintenance</a></li>
+            <ul style="margin-left:-40px;">
+              <li><a href="{{url('services/procurement-supply')}}">Contracting & Procurement </a></li>
+              <li><a href="{{url('services/instrumentation-electrical-automation')}}">Instrumentation, Electrical & Automation </a></li>
+              <li><a href="{{url('services/well-head-valve-engineering')}}">Well Head & Valve Engineering </a></li>
+                <li><a href="{{url('services/turbine-maintenance')}}">Turbine Maintenance </a></li>
+              <li><a href="{{url('services/subsurface-reservoir')}}">Subsurface & Reservoir </a></li>
+            
             </ul>
           </li>
           <li @if(Request::path() == 'contact') class="menu-active" @endif ><a href="{{url('contact')}}">Contact</a></li>
@@ -96,8 +100,9 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="index">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="/#">Home</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="about">About us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="qhse">QHSE</a></li>
 <li><i class="ion-ios-arrow-right"></i> <a href="contact">Contact Us</a></li>
             </ul>
           </div>
@@ -106,7 +111,8 @@
           <div class="col-lg-4 col-md-7 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              225b Ikorodu Crescent, Dolphin Estate Ikoyi Lagos. <br>
+              3rd Floor, Africa Re Building Plot 1679 Karimu Kotun Street
+Victoria Island. <br>
               <strong>Phone:</strong> +234-8182799239 | +234-8023002845<br>
               <strong>Email:</strong> info@gvi-group.com<br>
             </p>
